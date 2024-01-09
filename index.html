@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="cont">
+        <div>
+            <h1 class="title">Calculator</h1>
+        </div>
+        <div class="sheet">
+            <div class="display">
+                <input id="text1" type="text" value="">
+                <input id="text2" type="text" readonly value="-">
+            </div>
+            <div class="buttons">
+                <div><button onclick="Del()" id="del" class="btn btn-outline-secondary">AC</button></div>
+                <div><button onclick="back()" id="back" class="btn btn-outline-secondary">DE</button></div>
+                <div><button onclick="percent(); display('percent')" id="percent" class="btn btn-outline-secondary">%</button></div>
+                <div><button onclick="display('multi')" id="multi" class="btn btn-outline-secondary">*</button></div>
+                <div><button onclick="display('seven')" id="seven" class="btn btn-outline-secondary">7</button></div>
+                <div><button onclick="display('eight')" id="eight" class="btn btn-outline-secondary">8</button></div>
+                <div><button onclick="display('nine')" id="nine" class="btn btn-outline-secondary">9</button></div>
+                <div><button onclick="display('plus')" id="plus" class="btn btn-outline-secondary">+</button></div>
+                <div><button onclick="display('four')" id="four" class="btn btn-outline-secondary">4</button></div>
+                <div><button onclick="display('five')" id="five" class="btn btn-outline-secondary">5</button></div>
+                <div><button onclick="display('six')" id="six" class="btn btn-outline-secondary">6</button></div>
+                <div><button onclick="display('minus')" id="minus" class="btn btn-outline-secondary">-</button></div>
+                <div><button onclick="display('one')" id="one" class="btn btn-outline-secondary">1</button></div>
+                <div><button onclick="display('two')" id="two" class="btn btn-outline-secondary">2</button></div>
+                <div><button onclick="display('three')" id="three" class="btn btn-outline-secondary">3</button></div>
+                <div><button onclick="display('divide')" id="divide" class="btn btn-outline-secondary">/</button></div>
+                <div><button onclick="display('zero2')" id="zero2" class="btn btn-outline-secondary">00</button></div>
+                <div><button onclick="display('zero')" id="zero" class="btn btn-outline-secondary">0</button></div>
+                <div><button onclick="display('dot')" id="dot" class="btn btn-outline-secondary">.</button></div>
+                <div><button onclick="equal()" id="equal" class="btn btn-outline-secondary">=</button></div>
+            </div>
+        </div>
+    </div>
+    <script src="../../bootstrap/js/bootstrap.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
