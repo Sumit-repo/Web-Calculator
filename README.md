@@ -7,7 +7,7 @@ Web-Calculator is a user-friendly online tool designed for quick and efficient m
 
 ## Usage
 
-1. Open the [Web-Calculator](#https://sumit-repo.github.io/Web-Calculator/) link in your web browser.
+1. Open the [Web-Calculator](https://sumit-repo.github.io/Web-Calculator/) link in your web browser.
 2. Enter your mathematical expression using the on-screen keypad or your keyboard.
 3. Press the "=" button or hit Enter to calculate the result.
 4. View the result displayed on the screen.
